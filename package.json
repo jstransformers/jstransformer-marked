@@ -1,0 +1,18 @@
+{
+  "name": "jstransformer-marked",
+  "version": "0.0.0",
+  "description": "Transform markdown into HTML using marked",
+  "keywords": ["jstransformer"],
+  "dependencies": {
+    "marked": "^0.3.2"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-marked.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
