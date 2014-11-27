@@ -2,7 +2,8 @@
 
 var marked = require('marked');
 
+exports.name = 'marked';
 exports.outputFormat = 'html';
-exports.compile = function (str, options) {
+exports.render = function (str, options) {
   return marked(str, options);
 };

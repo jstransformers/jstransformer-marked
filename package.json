@@ -2,7 +2,9 @@
   "name": "jstransformer-marked",
   "version": "0.0.0",
   "description": "Transform markdown into HTML using marked",
-  "keywords": ["jstransformer"],
+  "keywords": [
+    "jstransformer"
+  ],
   "dependencies": {
     "marked": "^0.3.2"
   },
