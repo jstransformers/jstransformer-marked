@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.0.2: 2015-06-11
+## v0.0.2: 2015-07-03
 
 - Updated dependencies
 
