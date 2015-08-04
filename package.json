@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-marked",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Marked support for JSTransformers.",
   "keywords": [
     "jstransformer"
