@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.2: [Unreleased]
+
+- Updated marked to 0.3.6
+
 ## v1.0.1: 2015-08-04
 
 - Updated dependencies
