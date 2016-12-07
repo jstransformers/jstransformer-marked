@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.2: [Unreleased]
+## v1.0.2: 2016-12-06
 
 - Updated marked to 0.3.6
 
