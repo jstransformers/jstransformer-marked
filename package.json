@@ -6,7 +6,8 @@
     "jstransformer"
   ],
   "dependencies": {
-    "marked": "^0.3.6"
+    "marked": "^0.3.6",
+    "snyk": "^1.25.0"
   },
   "files": [
     "index.js"
@@ -18,7 +19,9 @@
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space --no-semicolon index.js"
+    "posttest": "xo --space --no-semicolon index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=4"
@@ -31,5 +34,6 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
