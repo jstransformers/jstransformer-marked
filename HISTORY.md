@@ -3,6 +3,7 @@
 ## v1.0.3: 2017-12-04
 
 - Updated marked to 0.3.9
+- Updated Boilerplate
 
 ## v1.0.2: 2016-12-06
 
