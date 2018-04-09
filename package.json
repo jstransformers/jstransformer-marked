@@ -1,24 +1,24 @@
 {
   "name": "jstransformer-marked",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Marked support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
   "dependencies": {
-    "marked": "^0.3.6"
+    "marked": "^0.3.9"
   },
   "files": [
     "index.js"
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.18.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space --no-semicolon index.js"
+    "posttest": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
     "node": ">=4"

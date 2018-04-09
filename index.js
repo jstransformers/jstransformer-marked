@@ -1,6 +1,6 @@
 'use strict'
 
-var marked = require('marked')
+const marked = require('marked')
 
 exports.name = 'marked'
 exports.outputFormat = 'html'
