@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.0: 2021-12-16
+
+- Updated marked to 2.1.0
+- Dropped support for Node < 8.16.2
+
 ## v1.0.3: 2017-12-04
 
 - Updated marked to 0.3.9

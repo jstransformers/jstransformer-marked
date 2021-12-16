@@ -6,21 +6,21 @@
     "jstransformer"
   ],
   "dependencies": {
-    "marked": "^0.3.9"
+    "marked": "^2.1.0"
   },
   "files": [
     "index.js"
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "*"
+    "xo": "^0.25.4"
   },
   "scripts": {
     "test": "test-jstransformer",
     "posttest": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8.16.2"
   },
   "repository": {
     "type": "git",
