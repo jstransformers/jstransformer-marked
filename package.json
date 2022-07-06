@@ -3,10 +3,11 @@
   "version": "1.1.0",
   "description": "Marked support for JSTransformers.",
   "keywords": [
-    "jstransformer"
+    "jstransformer",
+    "marked"
   ],
   "dependencies": {
-    "marked": "^2.1.0"
+    "marked": "^4.0.17"
   },
   "files": [
     "index.js"
@@ -20,7 +21,7 @@
     "lint": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
-    "node": ">=8.16.2"
+    "node": ">=8.17.0"
   },
   "repository": {
     "type": "git",

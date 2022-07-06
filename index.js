@@ -1,9 +1,13 @@
-// Marked 2.1.0 is Node 8 compatible only when required from the lib folder
-const marked = require('marked/lib/marked')
+const marked = require('marked').marked
 
-exports.name = 'marked'
-exports.outputFormat = 'html'
-exports.inputFormats = ['marked', 'markdown', 'md']
-exports.render = function (string, options) {
+const transformer = {
+  name: 'marked',
+  outputFormat: 'html',
+  inputFormats: ['marked', 'markdown', 'md'],
+}
+
+transformer.render = function (string, options) {
   return marked(string, options)
 }
+
+module.exports = transformer
