@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0: 2022-07-07
+
+- Updated marked to 4.0.17
+- Dropped support for Node < 8.17.0.
+
 ## v1.1.0: 2021-12-16
 
 - Updated marked to 2.1.0
