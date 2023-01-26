@@ -13,14 +13,26 @@
 ## API
 
 ```js
-let marked = require('jstransformer')(require('jstransformer-marked'));
+const marked = require('jstransformer')(require('jstransformer-marked'));
 
 marked.render('# Hello World!').body
 //=> '<h1>Hello World!</h1>'
 
 const markedOptions = {}
 marked.render('# "Hello World"', markedOptions)
+
+// also supports async walkTokens
+marked.renderAsync('# Hello World', {
+  walkTokens: async (token) => {
+    const uriPrefix  = await uriPrefixAsync()
+    if (token.href) {
+      token.href = uriPrefix + token.href
+    }
+  }
+})
 ```
+
+For all supported options see https://marked.js.org/using_advanced#options
 
 ## License
 

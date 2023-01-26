@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.0: 2023-01-27
+
+- Updated marked to 4.2.12
+- Updated readme
+- Adds renderAsync method & support for marked async walkTokens option
+
 ## v1.2.0: 2022-07-07
 
 - Updated marked to 4.0.17
