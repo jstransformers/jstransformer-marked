@@ -7,7 +7,7 @@
     "marked"
   ],
   "dependencies": {
-    "marked": "^4.2.12"
+    "marked": "^4.3.0"
   },
   "files": [
     "index.js"
