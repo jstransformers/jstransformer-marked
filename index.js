@@ -13,15 +13,10 @@ transformer.render = function (string, options) {
 // Marked doesn't really support async rendering, but this enables async walkTokens extensions,
 // see https://marked.js.org/using_pro#async
 transformer.renderAsync = function (string, options) {
-  const rendered = marked(string, {
+  return marked(string, {
     ...options,
     async: true,
   })
-  if (rendered instanceof Promise) {
-    return rendered
-  }
-
-  return Promise.resolve(rendered)
 }
 
 module.exports = transformer
