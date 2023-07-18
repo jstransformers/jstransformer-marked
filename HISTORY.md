@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0: 2023-07-18
+
+- Updated marked to 4.3.0
+
 ## v1.3.0: 2023-01-27
 
 - Updated marked to 4.2.12
