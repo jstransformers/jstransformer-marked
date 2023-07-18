@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.47.0"
+    "xo": "^0.55.0"
   },
   "scripts": {
     "test": "test-jstransformer",
@@ -35,6 +35,7 @@
   "xo": {
     "rules": {
       "unicorn/prefer-module": 0,
+      "unicorn/prefer-node-protocol": 0,
       "object-curly-spacing": 0
     }
   }
